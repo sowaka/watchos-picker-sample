@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB288411B61C6FF00F994DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288401B61C6FF00F994DA /* AppDelegate.swift */; };
+		2BB288431B61C6FF00F994DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288421B61C6FF00F994DA /* ViewController.swift */; };
+		2BB288461B61C6FF00F994DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288441B61C6FF00F994DA /* Main.storyboard */; };
+		2BB288481B61C6FF00F994DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288471B61C6FF00F994DA /* Assets.xcassets */; };
+		2BB2884B1B61C6FF00F994DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288491B61C6FF00F994DA /* LaunchScreen.storyboard */; };
+		2BB288501B61C6FF00F994DA /* PickerSample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2BB2884F1B61C6FF00F994DA /* PickerSample WatchKit App.app */; };
+		2BB288561B61C6FF00F994DA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288541B61C6FF00F994DA /* Interface.storyboard */; };
+		2BB288581B61C6FF00F994DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288571B61C6FF00F994DA /* Assets.xcassets */; };
+		2BB2885F1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BB2885E1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2BB288641B61C6FF00F994DA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288631B61C6FF00F994DA /* InterfaceController.swift */; };
+		2BB288661B61C6FF00F994DA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */; };
+		2BB288681B61C6FF00F994DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288671B61C6FF00F994DA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB288511B61C6FF00F994DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB288351B61C6FF00F994DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB2884E1B61C6FF00F994DA;
+			remoteInfo = "PickerSample WatchKit App";
+		};
+		2BB288601B61C6FF00F994DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB288351B61C6FF00F994DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB2885D1B61C6FF00F994DA;
+			remoteInfo = "PickerSample WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BB2886F1B61C6FF00F994DA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2BB2885F1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB288731B61C6FF00F994DA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2BB288501B61C6FF00F994DA /* PickerSample WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BB2883D1B61C6FF00F994DA /* PickerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB288401B61C6FF00F994DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BB288421B61C6FF00F994DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BB288451B61C6FF00F994DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB288471B61C6FF00F994DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB2884A1B61C6FF00F994DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB2884C1B61C6FF00F994DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB2884F1B61C6FF00F994DA /* PickerSample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PickerSample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB288551B61C6FF00F994DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2BB288571B61C6FF00F994DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB288591B61C6FF00F994DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB2885E1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PickerSample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB288631B61C6FF00F994DA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2BB288671B61C6FF00F994DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB288691B61C6FF00F994DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB2883A1B61C6FF00F994DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB2885B1B61C6FF00F994DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB288341B61C6FF00F994DA = {
+			isa = PBXGroup;
+			children = (
+				2BB2883F1B61C6FF00F994DA /* PickerSample */,
+				2BB288531B61C6FF00F994DA /* PickerSample WatchKit App */,
+				2BB288621B61C6FF00F994DA /* PickerSample WatchKit Extension */,
+				2BB2883E1B61C6FF00F994DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB2883E1B61C6FF00F994DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB2883D1B61C6FF00F994DA /* PickerSample.app */,
+				2BB2884F1B61C6FF00F994DA /* PickerSample WatchKit App.app */,
+				2BB2885E1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB2883F1B61C6FF00F994DA /* PickerSample */ = {
+			isa = PBXGroup;
+			children = (
+				2BB288401B61C6FF00F994DA /* AppDelegate.swift */,
+				2BB288421B61C6FF00F994DA /* ViewController.swift */,
+				2BB288441B61C6FF00F994DA /* Main.storyboard */,
+				2BB288471B61C6FF00F994DA /* Assets.xcassets */,
+				2BB288491B61C6FF00F994DA /* LaunchScreen.storyboard */,
+				2BB2884C1B61C6FF00F994DA /* Info.plist */,
+			);
+			path = PickerSample;
+			sourceTree = "<group>";
+		};
+		2BB288531B61C6FF00F994DA /* PickerSample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2BB288541B61C6FF00F994DA /* Interface.storyboard */,
+				2BB288571B61C6FF00F994DA /* Assets.xcassets */,
+				2BB288591B61C6FF00F994DA /* Info.plist */,
+			);
+			path = "PickerSample WatchKit App";
+			sourceTree = "<group>";
+		};
+		2BB288621B61C6FF00F994DA /* PickerSample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2BB288631B61C6FF00F994DA /* InterfaceController.swift */,
+				2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */,
+				2BB288671B61C6FF00F994DA /* Assets.xcassets */,
+				2BB288691B61C6FF00F994DA /* Info.plist */,
+			);
+			path = "PickerSample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB2883C1B61C6FF00F994DA /* PickerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB288741B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample" */;
+			buildPhases = (
+				2BB288391B61C6FF00F994DA /* Sources */,
+				2BB2883A1B61C6FF00F994DA /* Frameworks */,
+				2BB2883B1B61C6FF00F994DA /* Resources */,
+				2BB288731B61C6FF00F994DA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB288521B61C6FF00F994DA /* PBXTargetDependency */,
+			);
+			name = PickerSample;
+			productName = PickerSample;
+			productReference = 2BB2883D1B61C6FF00F994DA /* PickerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB2884E1B61C6FF00F994DA /* PickerSample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB288701B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample WatchKit App" */;
+			buildPhases = (
+				2BB2884D1B61C6FF00F994DA /* Resources */,
+				2BB2886F1B61C6FF00F994DA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB288611B61C6FF00F994DA /* PBXTargetDependency */,
+			);
+			name = "PickerSample WatchKit App";
+			productName = "PickerSample WatchKit App";
+			productReference = 2BB2884F1B61C6FF00F994DA /* PickerSample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2BB2885D1B61C6FF00F994DA /* PickerSample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB2886C1B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample WatchKit Extension" */;
+			buildPhases = (
+				2BB2885A1B61C6FF00F994DA /* Sources */,
+				2BB2885B1B61C6FF00F994DA /* Frameworks */,
+				2BB2885C1B61C6FF00F994DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickerSample WatchKit Extension";
+			productName = "PickerSample WatchKit Extension";
+			productReference = 2BB2885E1B61C6FF00F994DA /* PickerSample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB288351B61C6FF00F994DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.myCompany;
+				TargetAttributes = {
+					2BB2883C1B61C6FF00F994DA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2BB2884E1B61C6FF00F994DA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2BB2885D1B61C6FF00F994DA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2BB288381B61C6FF00F994DA /* Build configuration list for PBXProject "PickerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB288341B61C6FF00F994DA;
+			productRefGroup = 2BB2883E1B61C6FF00F994DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB2883C1B61C6FF00F994DA /* PickerSample */,
+				2BB2884E1B61C6FF00F994DA /* PickerSample WatchKit App */,
+				2BB2885D1B61C6FF00F994DA /* PickerSample WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB2883B1B61C6FF00F994DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB2884B1B61C6FF00F994DA /* LaunchScreen.storyboard in Resources */,
+				2BB288481B61C6FF00F994DA /* Assets.xcassets in Resources */,
+				2BB288461B61C6FF00F994DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB2884D1B61C6FF00F994DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB288581B61C6FF00F994DA /* Assets.xcassets in Resources */,
+				2BB288561B61C6FF00F994DA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB2885C1B61C6FF00F994DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB288681B61C6FF00F994DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB288391B61C6FF00F994DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB288431B61C6FF00F994DA /* ViewController.swift in Sources */,
+				2BB288411B61C6FF00F994DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB2885A1B61C6FF00F994DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB288661B61C6FF00F994DA /* ExtensionDelegate.swift in Sources */,
+				2BB288641B61C6FF00F994DA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB288521B61C6FF00F994DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB2884E1B61C6FF00F994DA /* PickerSample WatchKit App */;
+			targetProxy = 2BB288511B61C6FF00F994DA /* PBXContainerItemProxy */;
+		};
+		2BB288611B61C6FF00F994DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB2885D1B61C6FF00F994DA /* PickerSample WatchKit Extension */;
+			targetProxy = 2BB288601B61C6FF00F994DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB288441B61C6FF00F994DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB288451B61C6FF00F994DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB288491B61C6FF00F994DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB2884A1B61C6FF00F994DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB288541B61C6FF00F994DA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB288551B61C6FF00F994DA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB2886A1B61C6FF00F994DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB2886B1B61C6FF00F994DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB2886D1B61C6FF00F994DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerSample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2BB2886E1B61C6FF00F994DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerSample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2BB288711B61C6FF00F994DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerSample_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerSample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2BB288721B61C6FF00F994DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerSample_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerSample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2BB288751B61C6FF00F994DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB288761B61C6FF00F994DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB288381B61C6FF00F994DA /* Build configuration list for PBXProject "PickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB2886A1B61C6FF00F994DA /* Debug */,
+				2BB2886B1B61C6FF00F994DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB2886C1B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB2886D1B61C6FF00F994DA /* Debug */,
+				2BB2886E1B61C6FF00F994DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB288701B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB288711B61C6FF00F994DA /* Debug */,
+				2BB288721B61C6FF00F994DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB288741B61C6FF00F994DA /* Build configuration list for PBXNativeTarget "PickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB288751B61C6FF00F994DA /* Debug */,
+				2BB288761B61C6FF00F994DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB288351B61C6FF00F994DA /* Project object */;
+}
