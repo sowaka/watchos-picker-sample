@@ -19,6 +19,9 @@
 		2BB288641B61C6FF00F994DA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288631B61C6FF00F994DA /* InterfaceController.swift */; };
 		2BB288661B61C6FF00F994DA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */; };
 		2BB288681B61C6FF00F994DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB288671B61C6FF00F994DA /* Assets.xcassets */; };
+		2BB288781B61C8C100F994DA /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288771B61C8C100F994DA /* ItemRow.swift */; };
+		2BB2887A1B61C9F900F994DA /* ColorPickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB288791B61C9F900F994DA /* ColorPickerInterfaceController.swift */; };
+		2BB2887C1B61CD2F00F994DA /* PickerStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2887B1B61CD2F00F994DA /* PickerStyleKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2BB288671B61C6FF00F994DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB288691B61C6FF00F994DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB288771B61C8C100F994DA /* ItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		2BB288791B61C9F900F994DA /* ColorPickerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerInterfaceController.swift; sourceTree = "<group>"; };
+		2BB2887B1B61CD2F00F994DA /* PickerStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerStyleKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				2BB288631B61C6FF00F994DA /* InterfaceController.swift */,
+				2BB288791B61C9F900F994DA /* ColorPickerInterfaceController.swift */,
+				2BB288771B61C8C100F994DA /* ItemRow.swift */,
 				2BB288651B61C6FF00F994DA /* ExtensionDelegate.swift */,
+				2BB2887B1B61CD2F00F994DA /* PickerStyleKit.swift */,
 				2BB288671B61C6FF00F994DA /* Assets.xcassets */,
 				2BB288691B61C6FF00F994DA /* Info.plist */,
 			);
@@ -221,6 +230,7 @@
 				TargetAttributes = {
 					2BB2883C1B61C6FF00F994DA = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4885S7VU55;
 					};
 					2BB2884E1B61C6FF00F994DA = {
 						CreatedOnToolsVersion = 7.0;
@@ -294,6 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB288781B61C8C100F994DA /* ItemRow.swift in Sources */,
+				2BB2887A1B61C9F900F994DA /* ColorPickerInterfaceController.swift in Sources */,
+				2BB2887C1B61CD2F00F994DA /* PickerStyleKit.swift in Sources */,
 				2BB288661B61C6FF00F994DA /* ExtensionDelegate.swift in Sources */,
 				2BB288641B61C6FF00F994DA /* InterfaceController.swift in Sources */,
 			);
@@ -487,10 +500,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PickerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -498,10 +514,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PickerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.PickerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

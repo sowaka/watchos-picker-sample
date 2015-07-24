@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8083.2"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PickerSample_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="tMu-eH-hNV">
+                            <items>
+                                <tableRow identifier="ItemRow" id="ZYo-Vu-8u1" customClass="ItemRow" customModule="PickerSample_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="3wN-Sh-sAU">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Item" id="eKE-oE-IHn"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="eKE-oE-IHn" id="pTx-A3-SrE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="tMu-eH-hNV" id="xIR-qI-QNY"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="316" y="353"/>
+        </scene>
+        <!--ColorPicker-->
+        <scene sceneID="Awp-zN-Hm0">
+            <objects>
+                <controller identifier="ColorPicker" title="ColorPicker" hidesWhenLoading="NO" id="FSb-Iy-Gsj" customClass="ColorPickerInterfaceController" customModule="PickerSample_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="100" alignment="center" verticalAlignment="center" style="sequence" id="40g-Sh-isz"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="40g-Sh-isz" id="Sri-bs-wWa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="583" y="278"/>
         </scene>
     </scenes>
 </document>
